@@ -1,0 +1,17 @@
+{
+  "projectId": "mundialito-app",
+  "source": "functions/index.js",
+  "runtime": "nodejs20",
+  "language": "javascript",
+  "timeZone": "America/Lima",
+  "functions": [
+    {
+      "name": "mundialito-football",
+      "displayName": "Mundialito Football API",
+      "entrypoint": "mundialitoFootball",
+      "trigger": "manual",
+      "timeZone": "America/Lima",
+      "status": "active"
+    }
+  ]
+}

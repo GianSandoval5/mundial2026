@@ -1,0 +1,18 @@
+{
+  "name": "mundialito-functions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "flupibase": "node ../../../Flupione_Software/flupibase/backend/functions-worker/cli-package/cli.js",
+    "deploy": "npm run flupibase -- functions deploy",
+    "login": "npm run flupibase -- functions login",
+    "token": "npm run flupibase -- functions token --masked",
+    "invoke": "npm run flupibase -- functions invoke",
+    "secrets:list": "npm run flupibase -- functions secrets list",
+    "secrets:set": "npm run flupibase -- functions secrets set",
+    "secrets:delete": "npm run flupibase -- functions secrets delete"
+  },
+  "dependencies": {
+    "@flupibase/functions": "file:../../../Flupione_Software/flupibase/backend/functions-worker/runtime-package"
+  }
+}
