@@ -8,36 +8,13 @@ La app esta disenada con una arquitectura feature-first, consumo de datos reales
 via Flupibase Functions, cache en memoria por temporada y refresco silencioso
 para una experiencia en vivo sin parpadeos de carga.
 
-## Capturas
+## Vista previa
 
-Las capturas del producto estan versionadas en [`assets/`](assets/).
+La portada del producto esta versionada en [`assets/portada.png`](assets/portada.png).
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/home.png" width="240" alt="Mundialito home" />
-      <br />
-      <strong>Home</strong>
-    </td>
-    <td align="center">
-      <img src="assets/proximos.png" width="240" alt="Mundialito proximos partidos" />
-      <br />
-      <strong>Proximos</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="assets/grupos.png" width="240" alt="Mundialito grupos" />
-      <br />
-      <strong>Grupos</strong>
-    </td>
-    <td align="center">
-      <img src="assets/details.png" width="240" alt="Mundialito detalle de partido" />
-      <br />
-      <strong>Detalle</strong>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/portada.png" alt="Mundialito preview con tres pantallas de la app" />
+</p>
 
 ## Principios
 
@@ -191,6 +168,7 @@ assets/
   details.png
   grupos.png
   home.png
+  portada.png
   proximos.png
 config/
   .env.example
